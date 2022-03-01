@@ -1,0 +1,181 @@
+
+/* Navbar */
+.navbar{
+    display: flex;
+    align-items: center!;
+    height: 136px;
+    background-color: #000;
+}
+
+ .navbar .container-fluid{
+    max-width: 1070px;
+}
+
+.navbar-brand{
+    color: #FFFFFF;
+    font-family: 'Prata', serif;
+    font-size: 18px;
+
+}
+.nav-item{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+.navbar .nav-link{
+    color: #ADADAD;
+}
+
+.navbar .btn{
+    height: 56px;
+    width: 170px;
+    border-radius: 0px;
+    background-color: #FBE850;
+    color: black;
+    font-family: 'Prata', serif;
+}
+
+/* Header Section */
+header{
+    background-color: #000;
+    padding-top: 40px;
+}
+header .row{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+header .hero{
+    max-width: 700px;
+}
+header h1{
+    font-size: 56px;
+    color: #fff;
+    font-family: 'Prata', serif;
+}
+
+header p{
+    color: #ADADAD;
+    font-size: 18px;
+}
+
+/* Logos Section */
+.logo{
+    background-color: #000;
+    
+}
+.logos{
+    margin: 0 auto;
+    padding-top: 80px;
+    max-width: 1070px;
+    text-align: center;
+}
+/* Projects */
+.pro{
+    background-color: #000;
+}
+.projects{
+    background-color: #000;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    max-width: 1070px;
+}
+
+.project-card{
+    max-width: 520px;
+}
+.project-card h2{
+    font-family: 'Prata', serif;
+    margin-top: 24px;
+}
+
+.project-card h2 a{
+    color: white;
+    text-decoration: none;
+}
+.project-card p{
+    color: #ADADAD;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.project-card-img{
+    max-width: 500px;
+    
+}
+
+/* About me Section */
+.about{
+    background-color: #2E3038;
+}
+.about-me{
+    margin: 0 auto;
+    height: 481px;
+    max-width: 1070px;
+    background-color: #2E3038;
+}
+
+.about-card{
+    max-width: 520px;
+}
+.about-card h2 {
+    font-family: 'Prata', serif;
+    color: white;
+    font-size: 36px;
+}
+.about-card p{
+    color: #ADADAD;
+    font-size: 18px;
+}
+
+/* Call to action */
+.call{
+    height: 364px;
+    background-color: black;
+}
+.call-card{
+    max-width: 530px;
+    padding-top: 80px;
+    
+}
+.call h2{
+    font-family: 'Prata', serif;
+    color: white;
+    font-size: 36px;
+}
+.call p{
+    color: #ADADAD;
+    font-size: 18px;
+}
+.call-to-action{
+    margin: 0 auto;
+    max-width: 1070px;
+}
+.call-to-action .btn{
+    height: 56px;
+    width: 170px;
+    border-radius: 0px;
+    background-color: #FBE850;
+    color: black;
+    font-family: 'Prata', serif;
+}
+
+/* Footer Section */
+footer{
+    height: 72px;
+    background-color: #2E3038;
+}
+footer .content{
+    margin: 0 auto;
+    padding-top: 24px;
+    max-width: 1070px;
+}
+footer p{
+    font-family: 'Prata', serif;
+    color: white;
+    font-size: 18px;
+}
+.social{
+    padding-left: 16px;
+}
