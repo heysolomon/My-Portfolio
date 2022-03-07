@@ -5,6 +5,7 @@
     align-items: center;
     min-height: 136px;
     background-color: #000;
+    width: 100%;
 }
 
  .navbar .container-fluid{
@@ -36,6 +37,7 @@
 
 /* Header Section */
 header{
+    width: 100%;
     background-color: #000;
     padding-top: 40px;
 }
@@ -65,7 +67,7 @@ header p{
 /* Logos Section */
 .logo{
     background-color: #000;
-    
+    width: 100%;
 }
 .logo .row{
     display: none;
@@ -81,6 +83,7 @@ header p{
 /* Projects */
 .pro{
     background-color: #000;
+    width: 100%;
 }
 .pro-res{
     display: none;
@@ -122,9 +125,12 @@ header p{
 .about{
     background-color: #2E3038;
 }
+.about-responsive{
+    display: none;
+}
 .about-me{
     margin: 0 auto;
-    height: 481px;
+    min-height: 481px;
     max-width: 1070px;
     background-color: #2E3038;
 }
@@ -146,6 +152,7 @@ header p{
 .call{
     height: 364px;
     background-color: black;
+    width: 100%;
 }
 .call-card{
     max-width: 530px;
@@ -178,6 +185,7 @@ header p{
 footer{
     height: 72px;
     background-color: #2E3038;
+    width: 100%;
 }
 footer .content{
     margin: 0 auto;
@@ -191,6 +199,16 @@ footer p{
 }
 .social{
     padding-left: 16px;
+}
+
+@media screen and (max-width: 1118px) {
+    /* About Secion */
+    .about-responsive{
+        display: block;
+    }
+    .about-me{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1081px) {
