@@ -2,12 +2,12 @@
 /* Navbar */
 .navbar{
     display: flex;
-    align-items: center!;
-    height: 136px;
+    align-items: center;
+    min-height: 136px;
     background-color: #000;
 }
 
- .navbar .fluid{
+ .navbar .container-fluid{
     max-width: 1070px;
 }
 
@@ -65,6 +65,8 @@ header p{
     
 }
 .logos{
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     padding-top: 80px;
     max-width: 1070px;
@@ -181,7 +183,19 @@ footer p{
 }
 
 @media screen and (max-width: 664px) {
-    .navbar .fluid{
-        width: auto;
+    .navbar .container-fluid{
+        max-width: none;
+    }
+
+    /* Header Section */
+    header .row{
+        max-width: none;
+    }
+    header .hero{
+        max-width: none;
+    }
+    .logos{
+        max-width: none;
+        justify-content: center;
     }
 }
