@@ -45,6 +45,9 @@ header .row{
     max-width: 1070px;
     margin: 0 auto;
 }
+header .col-12{
+    display: none;
+}
 header .hero{
     max-width: 700px;
 }
@@ -64,6 +67,9 @@ header p{
     background-color: #000;
     
 }
+.logo .row{
+    display: none;
+}
 .logos{
     display: flex;
     justify-content: space-between;
@@ -76,12 +82,17 @@ header p{
 .pro{
     background-color: #000;
 }
+.pro-res{
+    display: none;
+}
 .projects{
     background-color: #000;
     margin: 0 auto;
     padding-top: 80px;
     padding-bottom: 70px;
     max-width: 1070px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .project-card{
@@ -182,6 +193,69 @@ footer p{
     padding-left: 16px;
 }
 
+@media screen and (max-width: 1081px) {
+    /* Logos */
+    .logos{
+        padding: 0 40px;
+    }
+    /* Hero section */
+    .projects{
+        padding: 80px 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /* Navbar Section */
+    .navbar .container-fluid{
+        padding: 0 40px;
+    }
+
+
+    /* header section */
+    header .hero{
+        display: none;
+    }
+    header .col-12{
+        display: block;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+
+    /* logos */
+    .logos{
+        padding: 0 40px; 
+    }
+    .projects{
+        padding: 80px 40px 0 40px;
+    }
+
+    /* Projects */
+    .pro{
+        display: none;
+    }
+    .pro-res{
+        display: block;
+        background-color: #000;
+    }
+    .pro-res .row{
+        padding: 80px 40px 0 40px;
+    }
+    .pro-res h2{
+        font-family: 'Prata', serif;
+        margin-top: 24px;
+    }
+    
+    .pro-res h2 a{
+        color: white;
+        text-decoration: none;
+    }
+    .pro-res p{
+        color: #ADADAD;
+        font-size: 18px;
+        padding-top: 8px;
+    }
+}
+
 @media screen and (max-width: 664px) {
     .navbar .container-fluid{
         max-width: none;
@@ -196,6 +270,7 @@ footer p{
     }
     .logos{
         max-width: none;
-        justify-content: center;
+        display: grid;
+        justify-content: left;
     }
 }
