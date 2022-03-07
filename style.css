@@ -7,7 +7,7 @@
     background-color: #000;
 }
 
- .navbar .container-fluid{
+ .navbar .fluid{
     max-width: 1070px;
 }
 
@@ -178,4 +178,10 @@ footer p{
 }
 .social{
     padding-left: 16px;
+}
+
+@media screen and (max-width: 664px) {
+    .navbar .fluid{
+        width: auto;
+    }
 }
